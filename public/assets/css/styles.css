@@ -1,0 +1,72 @@
+
+h1,h2,h3,h4{
+	font-family: 'Roboto', sans-serif!important;
+	font-weight:300!important;
+}
+.container{
+	padding:0;
+}
+
+.jumbotron h1{
+	font-weight:100!important;	
+	text-shadow: -3px 3px 12px #fff, 3px -3px 12px #fff;
+}
+.jumbotron a,
+.jumbotron p{
+	/*text-shadow: -1px 1px 3px #EDF4FF, 1px -1px 3px #EDF4FF;*/
+}
+
+.well{
+	background-image: url('/assets/images/cloud10-icon-small.png');
+	background-position: 98% 10px;
+	background-repeat: no-repeat;
+}
+.well h2{
+	margin:0 0 1em 0!important;
+}
+
+.jumbotron{
+	background: url('/assets/images/clouds_small.jpg') center !important;
+}
+
+.row{
+	margin-left:0;
+	margin-right:0;
+}
+
+/*.glyphicon{
+	display:inline-block;
+	background-repeat: no-repeat;
+	text-indent:-99999px;
+}
+*/
+.glyphicon-linkedin{
+	width:24px;
+	height:24px;
+	background-image: url('/assets/images/glyphicons_social/png/glyphicons_social_17_linked_in.png')
+}
+
+.carousel .well{
+	padding:130px 90px 50px 90px;
+	background-image: none;
+	margin-bottom:0;
+}
+.carousel-control{
+	background:none!important;
+	color: inherit;
+	text-shadow:none;
+}
+.carousel-caption{
+	color:#000;
+	font-family: 'Roboto', sans-serif!important;
+	font-weight:300!important;
+	font-size: 30px;
+	text-shadow:none; 
+}
+
+.carousel-indicators li{
+	border-color:#000;
+}
+.carousel-indicators li.active{
+	background-color:#999;
+}
